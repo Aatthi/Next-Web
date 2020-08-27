@@ -23,6 +23,11 @@
 	align-items: center;
 }
 
+.nav-1 li:hover {
+	color: black;
+	cursor: pointer;
+}
+
 .nav-2 {
 	display: flex;
 	list-style: none;
@@ -31,6 +36,9 @@
 
 .nav-2 img {
 	margin: 0 20px;
+	margin: 0 0 0 10px;
+	padding: 0 0 0 10px;
+	border-left: 1px solid rgb(175, 175, 175);
 }
 
 .nav-2 li {
